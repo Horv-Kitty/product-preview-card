@@ -111,11 +111,15 @@ footer a:hover {
     display: none;
   }
 
+  body {
+    margin-bottom: 20px;
+  }
+
   .body-container {
     max-width: 540px;
     background: white;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
   }
 
@@ -147,6 +151,18 @@ footer a:hover {
 
   .parfume-image {
     border-radius: 10px 10px 0px 0px;
+  }
+
+  .body-container {
+    max-width: 540px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  body {
+    margin-bottom: 20px;
   }
 }
 
