@@ -29,8 +29,12 @@
       <div class="body-container">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/image-product-desktop.jpg" alt="Parfume image" class="parfume-image desktop-img" />
-            <img src="images/image-product-mobile.jpg" alt="Parfume image" class="parfume-image phone-img" />
+            <!-- <img src="images/image-product-desktop.jpg" alt="Parfume image" class="parfume-image desktop-img" />
+            <img src="images/image-product-mobile.jpg" alt="Parfume image" class="parfume-image phone-img" /> -->
+            <picture>
+              <source media="(min-width:768px)" srcset="images/image-product-desktop.jpg">
+              <img src="images/image-product-mobile.jpg" alt="Parfume image" class="parfume-image">
+            </picture>
           </div>
           <div class="col-md-6 description">
             <span class="perfume">Perfume</span>
